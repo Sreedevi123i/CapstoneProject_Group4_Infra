@@ -5,7 +5,7 @@ output "api_invoke_url" {
 
 output "api_invoke_custom_url" {
   description = "API Invoke Custom URL."
-  value       = "https://api.${var.name_prefix}.${local.workspace_safe}.${var.domain}/${local.workspace_safe}"
+  value       = "https://api.${var.name_prefix}.${local.workspace_safe}.${var.domain}"
 }
 
 output "cloudfront_distribution_id" {
