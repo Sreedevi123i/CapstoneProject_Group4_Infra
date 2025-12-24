@@ -210,12 +210,6 @@
         <mxCell id="qhPXDlcHx4pRHtu1JLY7-3" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.waf;fillColor=#759C3E;gradientColor=none;" value="WAF" vertex="1">
           <mxGeometry height="93" width="76.5" x="116" y="404" as="geometry" />
         </mxCell>
-        <mxCell id="qhPXDlcHx4pRHtu1JLY7-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="820" y="430" as="sourcePoint" />
-            <mxPoint x="870" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="qhPXDlcHx4pRHtu1JLY7-7" edge="1" parent="1" source="qhPXDlcHx4pRHtu1JLY7-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="6bpwtREyMHeuFVraXUJT-8" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="820" y="430" as="sourcePoint" />
