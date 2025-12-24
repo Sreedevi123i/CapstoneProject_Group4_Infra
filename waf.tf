@@ -141,7 +141,7 @@ resource "aws_wafv2_web_acl" "waf" {
 }
 
 resource "aws_wafv2_web_acl_association" "apiwaf" {
-  resource_arn = "arn:aws:apigateway:${var.region}::/restapis/${aws_api_gateway_rest_api.api.id}/stages/${aws_api_gateway_stage.api_stage.stage_name}"
+  resource_arn = "arn:aws:apigateway:${var.region}::/restapis/${aws_api_gateway_rest_api.api.id}/stages/${aws_api_gateway_stage.api_stage[0].stage_name}"
   web_acl_arn  = aws_wafv2_web_acl.waf.arn
 
   depends_on = [
