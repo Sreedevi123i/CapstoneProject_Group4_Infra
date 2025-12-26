@@ -6,8 +6,6 @@ on:
       - 'feature/*'
       - 'fix/*'
       - 'bugfix/*'
-  pull_request:
-    branches:
       - dev
       - main
   workflow_dispatch:
