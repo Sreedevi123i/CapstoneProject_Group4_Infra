@@ -1,5 +1,5 @@
 resource "aws_iam_role" "cognito_lambda_role" {
-  name = "${var.name_prefix}-cognito-post-confirmation-lambda-role-${local.workspace_safe}"
+  name = "${var.name_prefix}-cognito-lambda-role-${local.workspace_safe}"
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
     Statement = [{
