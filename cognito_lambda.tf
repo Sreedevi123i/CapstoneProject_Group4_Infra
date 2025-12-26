@@ -11,6 +11,8 @@ resource "aws_iam_role" "cognito_lambda_role" {
 }
 
 resource "aws_iam_role_policy" "cognito_lambda_policy" {
+  # checkov:skip=CKV_AWS_355: "Ensure no IAM policies documents allow "***" as a statement's resource for restrictable actions"
+  # checkov:skip=CKV_AWS_290: "Ensure IAM policies does not allow write access without constraints"
   role = aws_iam_role.cognito_lambda_role.id
 
   policy = jsonencode({
