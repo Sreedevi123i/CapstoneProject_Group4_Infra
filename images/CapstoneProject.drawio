@@ -145,15 +145,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dpoJClzWkqjAazv2VhZJ-5" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cognito;fillColor=#AD688B;gradientColor=none;" value="Cognito&lt;br&gt;Authorization Provider" vertex="1">
-          <mxGeometry height="93" width="76.5" x="196.25" y="662" as="geometry" />
+          <mxGeometry height="93" width="76.5" x="60.25" y="678" as="geometry" />
         </mxCell>
-        <mxCell id="dpoJClzWkqjAazv2VhZJ-6" edge="1" parent="1" source="6bpwtREyMHeuFVraXUJT-4" style="endArrow=classic;html=1;rounded=0;entryX=-0.026;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="dpoJClzWkqjAazv2VhZJ-5" value="">
+        <mxCell id="dpoJClzWkqjAazv2VhZJ-6" edge="1" parent="1" source="6bpwtREyMHeuFVraXUJT-4" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="20" y="700" />
             </Array>
             <mxPoint x="104" y="585" as="sourcePoint" />
-            <mxPoint x="194" y="705" as="targetPoint" />
+            <mxPoint x="60" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zMjc_EnShv7Yn7lIfUJB-1" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" value="" vertex="1">
@@ -220,6 +220,25 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="820" y="430" as="sourcePoint" />
             <mxPoint x="870" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_aFyRxmC1uKqsSRzJjg-1" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" value="Sub SNS" vertex="1">
+          <mxGeometry height="60" width="60" x="240" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="6_aFyRxmC1uKqsSRzJjg-2" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" value="SNS - System Notification" vertex="1">
+          <mxGeometry height="76.5" width="76.5" x="403" y="687.75" as="geometry" />
+        </mxCell>
+        <mxCell id="6_aFyRxmC1uKqsSRzJjg-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="136.75" y="726.5" as="sourcePoint" />
+            <mxPoint x="240" y="727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_aFyRxmC1uKqsSRzJjg-4" edge="1" parent="1" source="6_aFyRxmC1uKqsSRzJjg-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="6_aFyRxmC1uKqsSRzJjg-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="530" as="sourcePoint" />
+            <mxPoint x="600" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
